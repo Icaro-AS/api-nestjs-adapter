@@ -1,7 +1,7 @@
 import { Module } from "@nestjs/common";
 import { UsuarioController } from "./UsuarioController";
 import { UsuarioService } from "./usuario.service";
-import { IsNomeDeUsuarioUnicoConstraint } from "./is-nome-de-usuario0unico-validadator";
+import { IsNomeDeUsuarioUnicoConstraint } from "./is-nome-de-usuario-unico-validadator";
 
 
 @Module({

@@ -1,5 +1,5 @@
 import { IsEmail, IsNotEmpty, IsString } from "class-validator";
-import { IsNomeDeUsuarioUnico } from "./is-nome-de-usuario0unico-validadator";
+import { IsNomeDeUsuarioUnico } from "./is-nome-de-usuario-unico-validadator";
 import { Exclude, Expose } from "class-transformer";
 
 export class Usuario {
